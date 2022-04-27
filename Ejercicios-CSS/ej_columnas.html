@@ -5,23 +5,46 @@
     <title>Ejercicio Columnas</title>
     <style>
         #tituloPrincipal{
-            color: deeppink;
+            color: #ac176a;
         }
         .tituloNoticia{
-            font-size: 2em;
+            font-size: 30px;
         }
-        body{
-            font-family: 'Inknut Antiqua', serif;
+
+        body {
+            font-family: "Comic Sans MS";
         }
-        a:link, a:visited {
-            color: #feab5a;
+        a:link, a:visited{
+            color: #4CAF50;
         }
+
         a:hover{
-            font-size: 2em;
+            font-size: 1.4em;
         }
-        a:active{
+
+        a:hover{
             font-weight: bold;
         }
+
+        article{
+            column-count: 2;/*separar en columnas*/
+            column-gap: 100px; /*espacio entre las dos columnas */
+            margin: 0px 50px;
+        }
+
+        /* forma mas complicada de separar textos en columna, sin hacer la hoja de estilo
+
+        .columna1{
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+        .columna2{
+            float: right;
+            width: 50%;
+        }*/
+
+
     </style>
 </head>
 <body>
@@ -34,7 +57,7 @@
     <h3 class="tituloNoticia">CordoBici</h3>
     Publicado el 07/03/2018 en Agropecuarias y Ambiente
     <article>
-        <div>
+        <div class="columna1">
             <p>
                 Un intercambio académico inspiró a Joaquín, Nicolás, Guido y Facundo para elegir el tema de su trabajo final.
                 Dos de ellos estuvieron el año pasado en Sevilla y se quedaron "enamorados" –palabras textuales- de su
@@ -63,8 +86,8 @@
                 mejorar la propuesta, agregando un know how”, explica Henry Martínez, coordinador de la carrera y director
                 de la tesis.
             </p>
-        </div>
-        <div class="grid-item">
+        </div >
+        <div class="columna2">
             <p>
                 Gracias a una profunda investigación comercial, sumada a una simulación realizada por un programa llamado
                 anylogic, consiguieron localizar de manera estratégica 19 estaciones con 280 bicicletas, en Nueva Córdoba y

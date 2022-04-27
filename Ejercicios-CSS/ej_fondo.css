@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+    background-image: url("imagenes/fondo_mario.jpg");
+    background-repeat: no-repeat;/*para que no se repita la imagen*/
+    /*background-repeat: repeat-x; para que se repita horizontalmente*/
+    /*background-repeat: repeat-y; para que se repita verticalmente*/
+    background-size: cover; /*la imagen se estira para q cubra toda la pantalla*/
+    background-attachment: scroll;
+    back
+}

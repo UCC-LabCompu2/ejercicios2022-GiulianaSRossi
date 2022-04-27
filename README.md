@@ -1,8 +1,26 @@
-# ejercicios2022
-Ejercicios de HTML, CSS y JS para Laboratorio de Computación II
+# Prueba2022
+Repositorio de prueba para comandos de git
 
-### TODO LIST
-* Ejercicios de margin-padding
-* Agregar diapositivas de Code-Review
-* Agregar texto en canvas
-* revisar etiqueta main https://developer.mozilla.org/es/docs/Web/HTML/Elemento/main
+# EJERCICIO DE README.md
+## CLASE PRACTICA - LABORATORIO DE COMPUTACION  (mas numerales, mas chica se hace la letra. tabulaciones, correr los items)
+
+### Giuliana Sofia Rossi
+
+* *Sistemas operativos* (negrita)
+* Herramientas de desarrollo (cursiva)
+
+[] hipervinculo
+()lo que queremos redireccionar
+
+| se arman las tablas
+| nombre | mail |
+| ...... | ...... |
+| Giuliana *Rossi* ||
+
+agregar emoji https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+:stuck_out_tongue:
+
+:calendar:
+>*Fecha:* 23-03-22
+
+Cambio de rama develop (git branch)
